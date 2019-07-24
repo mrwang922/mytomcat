@@ -24,7 +24,6 @@ public class Request {
     public void parse() {
         byte[] bytes = new byte[2048];
         StringBuffer sb = new StringBuffer(2048);
-
         try {
 //            while ((len = input.read(bytes)) != -1) {
 //                sb.append(new String(bytes, 0, len, CHARSET));
