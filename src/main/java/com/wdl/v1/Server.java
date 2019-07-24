@@ -6,6 +6,9 @@ import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author: wdl
@@ -15,6 +18,8 @@ import java.net.Socket;
  */
 public class Server {
 
+    private List list;
+
     public static void main(String[] args) {
         ServerSocket serverSocket = null;
         try {
@@ -23,27 +28,24 @@ public class Server {
             e.printStackTrace();
         }
 
-//        while (true) {
-            Socket socket = null;
-            InputStream input = null;
-            OutputStream output = null;
-            try {
-                socket = serverSocket.accept();
-                input = socket.getInputStream();
-                byte[] bytes = new byte[1024];
-                int len;
-                StringBuffer sb = new StringBuffer();
-                while ((len = input.read(bytes)) != -1) {
-                    sb.append(new String(bytes, 0, len,"utf-8"));
-                }
-                System.out.println(sb.toString());
-                input.close();
-                socket.close();
-                serverSocket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+        Socket socket = null;
+        InputStream input = null;
+        OutputStream output = null;
+        try {
+            socket = serverSocket.accept();
+            input = socket.getInputStream();
+            byte[] bytes = new byte[1024];
+            int len;
+            StringBuffer sb = new StringBuffer();
+            while ((len = input.read(bytes)) != -1) {
+                sb.append(new String(bytes, 0, len,"gbk"));
             }
-//        }
-
+            System.out.println(sb.toString());
+            input.close();
+            socket.close();
+            serverSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

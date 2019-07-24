@@ -17,7 +17,7 @@ public class Client {
         try {
             socket = new Socket("127.0.0.1", 8080);
             OutputStream output = socket.getOutputStream();
-            output.write("testData".getBytes("utf-8"));
+            output.write("测试数据".getBytes("utf-8"));
             output.close();
             socket.close();
         } catch (IOException e) {
