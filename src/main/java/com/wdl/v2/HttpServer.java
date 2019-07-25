@@ -1,4 +1,4 @@
-package com.wdl.v1;
+package com.wdl.v2;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,11 +18,6 @@ public class HttpServer {
 
     private static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
 
-    /**
-     * D:\workspace\ideaWorkspace\mytomcat\pic
-     */
-    public static final String WEB_BOOT = System.getProperty("user.dir") + File.separator + "pic";
-
     private boolean shutdown = false;
 
     public static void main(String[] args) {
@@ -37,7 +32,6 @@ public class HttpServer {
             serverSocket = new ServerSocket(port, 1, InetAddress.getByName("127.0.0.1"));
         } catch (IOException e) {
             e.printStackTrace();
-            System.exit(1);
         }
 
         while (!shutdown) {
@@ -55,13 +49,22 @@ public class HttpServer {
 
                 Response response = new Response(output);
                 response.setRequest(request);
-                response.sendStaticResource();
+
+                if (request.getUri().startsWith("/servlet/")) {
+                    // 处理servlet
+                    ServletProcessor processor = new ServletProcessor();
+                    processor.process(request, response);
+                } else {
+                    // 处理静态资源
+                    StaticResourceProcessor processor = new StaticResourceProcessor();
+                    processor.process(request, response);
+                }
 
                 socket.close();
-
                 shutdown = request.getUri().equals(SHUTDOWN_COMMAND);
             } catch (IOException e) {
                 e.printStackTrace();
+                System.exit(1);
             }
         }
     }

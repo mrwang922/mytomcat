@@ -51,7 +51,5 @@ public class Response {
                 e.printStackTrace();
             }
         }
-
-
     }
 }
