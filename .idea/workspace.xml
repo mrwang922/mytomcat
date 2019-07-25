@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="225db095-89e6-4083-a3fd-2db801979da3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v1/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v1/HttpServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v1/Request.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v1/Response.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v1/Server.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/HttpServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/PrimitiveServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/Request.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/RequestFacade.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/Response.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/ResponseFacade.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/ServletProcessor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wdl/v2/StaticResourceProcessor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/HttpServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/Request.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/RequestFacade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/Response.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/ResponseFacade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/ServletProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/StaticResourceProcessor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/mytomcat/com/wdl/v1/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/mytomcat/com/wdl/v1/HttpServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/mytomcat/com/wdl/v1/Request.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/mytomcat/com/wdl/v1/Response.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/mytomcat/com/wdl/v1/Server.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mytomcat.iml" afterPath="$PROJECT_DIR$/.idea/mytomcat.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v3/connector/StringManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wdl/v1/HttpServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v1/HttpServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wdl/v1/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v1/Response.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wdl/v2/PrimitiveServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/wdl/v2/PrimitiveServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,14 +149,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wdl/v2/HttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="281">
+              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wdl/v3/connector/StringManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -253,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wdl/v2/ServletProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wdl/v2/ResponseFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wdl/v2/PrimitiveServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wdl/v3/connector/StringManager.java" />
       </list>
     </option>
   </component>
@@ -328,11 +307,6 @@
             <path>
               <item name="mytomcat" type="b2602c69:ProjectViewProjectNode" />
               <item name="mytomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mytomcat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytomcat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,17 +337,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wdl" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mytomcat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mytomcat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -621,7 +585,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563848980815</updated>
-      <workItem from="1563848982204" duration="32067000" />
+      <workItem from="1563848982204" duration="33904000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1563849048394</created>
@@ -665,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563959460416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="版本2">
+      <created>1564046824076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564046824076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32067000" />
+    <option name="totallyTimeSpent" value="33904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -716,7 +687,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="版本2" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1054,11 +1026,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wdl/v2/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        <state relative-caret-position="281">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wdl/v3/connector/StringManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
