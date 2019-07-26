@@ -41,7 +41,7 @@ public class Request implements ServletRequest{
 //            }
             input.read(bytes);
             sb.append(new String(bytes, 0, bytes.length, CHARSET));
-            System.out.println("Request-parse:" + sb.toString());
+            System.out.println("HttpRequest-parse:" + sb.toString());
 
             uri = parseUri(sb.toString());
         } catch (Exception e) {

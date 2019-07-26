@@ -22,4 +22,22 @@ public class StringManager {
         }
         return mgr;
     }
+
+    public String getString(String key) {
+        if (key == null) {
+            String msg = "key is null";
+
+            throw new NullPointerException(msg);
+        }
+
+        String str = null;
+
+//        try {
+//            str = bundle.getString(key);
+//        } catch (MissingResourceException mre) {
+//            str = "Cannot find message associated with key '" + key + "'";
+//        }
+
+        return str;
+    }
 }
